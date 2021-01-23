@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}/*-------------------------------------navbar---------------------------------------*/
+.container{
+    background-color: white;
+}
+.navbar{
+margin-left: 5%;
+margin-top: 1%;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-family: serif;
+}
+.navbar .navbar-nav{
+    margin-left: 20%;
+}
+.navbar .nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar #navbarNav ul li a{
+    color: black;
+}
+.navbar #navbarNav ul li a:hover{
+    color:  rgba(20, 158, 38, 0.541);
+} 
+.navbar #navbarNav ul li a:active{
+    color:  rgba(20, 158, 38, 0.541);
+}  
+.navbar .icon-nav{
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.navbar .fa{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon-nav .badge {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: -20px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background: rgba(20, 158, 38, 0.541);
+    color: white;
+}
+/*--------------------------------------------slider------------------------------------------*/
+.carousel-item .carousel-caption{
+    margin-left: -70%;
+    color:  rgba(20, 158, 38, 0.541);
+    margin-bottom: 40px;
+}
+.carousel-item .carousel-caption .btn{
+    background-color:  rgba(20, 158, 38, 0.541);
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(20, 158, 38, 0.541);
+}
+/*-------------------------------------------------services---------------------------------*/
+#services .linkes{
+    text-align: center;
+    padding:100px;
+}
+#services .linkes a{
+    padding: 20px;
+    color: black;
+}
+#services .linkes a:active{
+    text-decoration:  rgba(20, 158, 38, 0.541);
+    transition: 0.5s;
+    transform: translateY(-8px);
+}
+.content .cart{
+    width: 249px;
+    border: 80px;
+    padding: 30px;
+    height: 50px;
+    display: flex;
+    background-color:  rgba(20, 158, 38, 0.541);
+    color: white;
+}
+.content .item-services .col-md-3:hover{
+    /*transform: translateY(-10px);
+    transition: 0.5s;*/
+    box-shadow: 0 0 20px 7px rgba(0,0, 0, 0.7);
+}
+.content .cart a{
+    display: flex;
+    padding: 0 30px;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.content .cart .fa-cart-plus{
+    display: flex;
+    margin-top: -5px;
+    color: rgb(158, 155, 155);
+}
+.content .cart .fa-diamond{
+    display: flex;
+    margin-top: -5px;
+    color: rgb(158, 155, 155);
+}
+.content .details{
+    width: 249px;
+    border: 50px;
+    padding: 10px;
+    height: 80px;
+    background-color: white;
+    color:black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.content .details .new{
+    display: flex;
+    display: inline;
+    margin-right: 20px;
+}
+.content .details .old{
+    display: flex;
+    display: inline;
+    color: grey;
+    text-decoration: line-through;
+}
+/*------------------------------------shop now button-----------------------------------------*/
+.shop{
+    margin-top: 40px;
+}
+.shop .btn{
+    border-color: rgba(20, 158, 38, 0.541);
+    color: black;
+}
+.shop .btn:hover{
+    background-color: rgba(20, 158, 38, 0.541);
+    color: white;
+}
+.shop .sub-head{
+    margin-top: 80px;
+}
+.shop .sub-head h3{
+    margin-bottom: 20px;
+}
+.shop .sub-head p{
+    margin-bottom: 80px;
+}
+.shop .sub-head input{
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.shop .sub-head .btn-sub{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+/*---------------------------------------------------------footer----------------------------------*/
+#footer{
+    margin-top: 100px;
+}
+#footer .fatima-footer{
+    font-weight: 600;
+    font-family: serif;
+    font-size: 35px;
+}
+#footer .copy-footer{
+    margin-top: -20px;
+    font-weight: 600;
+    color: gray;
+}
+#footer img{
+    padding-right: 1px;
+}
+.second-footer p{
+    color: gray;
+    height: 15px;
+}
+.third-footer p{
+    color: gray;
+    height: 15px;
+}
+.fourth-footer p{
+    color: gray;
+    height: 10px;
+}
+.fourth-footer .social_icons{
+    padding-top: 20px;
+    width: 100%;
+}
+.fourth-footer .social_icons .fa{
+    padding: 13px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: black;
+}
+.fourth-footer .social_icons .fa:hover{
+    background-color:  rgba(20, 158, 38, 0.541);
+    border: none
+}
